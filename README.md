@@ -3,7 +3,7 @@
 
 Uses an ESP32 to pull text from an MQTT broker and then scrolls the text across an SSD1306 OLED display.
 
-The code is a bit of a mess, but it works. I'll work on cleaning it up later, but it is based off of the two Adafruit libraries, Adafruit_MQTT_Client and Adafruit_SSD1306. I had to use the second core on the ESP32 in order to get smooth scrolling, but it can also be done with a while loop on a single core. It just doesn't look as pretty. 
+The code is a bit of a mess, but it works. I'll work on cleaning it up later, but it is based off of the two Adafruit libraries, Adafruit_MQTT_Library and Adafruit_SSD1306. I had to use the second core on the ESP32 in order to get smooth scrolling, but it can also be done with a while loop on a single core. It just doesn't look as pretty. 
 
 
 
@@ -38,3 +38,12 @@ void checkSubs()  {
     }
 }
 ```
+
+  
+  
+## References
+
+ - [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
+ - [Adafruit_MQTT_Library](https://github.com/adafruit/Adafruit_MQTT_Library)
+ - [eborchardt/SSD1306_Scroll](https://github.com/eborchardt/SSD1306_Scroll)
+ - [YouTube video that helped a lot!](https://youtu.be/sTYPuDMPva8)
