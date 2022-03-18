@@ -1,0 +1,5 @@
+#define SECRET_SSID "<Name of your WiFi SSID>"
+#define SECRET_PASS "<WiFi Password>"
+#define MQTT_SERVER "<The address or URL of your MQTT broker>"
+#define MQTT_USER "<MQTT Username>"
+#define MQTT_PASS "<MQTT Password>"
